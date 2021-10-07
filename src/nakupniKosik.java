@@ -7,8 +7,8 @@ public class nakupniKosik {
         int totalPrice = 0;
 
         if (args.length > 0) {
-            for (String j : args) {
-                switch (j) {
+            for (String vozik : args) {
+                switch (vozik) {
                     case "0":
                         System.out.println("Rohlik");
                         totalPrice = totalPrice + 2;
